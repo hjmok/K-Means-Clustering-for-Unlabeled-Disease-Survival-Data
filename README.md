@@ -3,7 +3,7 @@
 The purpose of this project is to demonstrate the application of K-Means Clustering on a mostly unlabelled dataset. This unsupervised learning method can lead to clusters that may indicate survival or death when infected with certain respiratory diseases (COVID19, SARS, ARDS, Streptococcus).
 
 ## Dataset and Library
-ScikitLearn and PySpark's KMeans class from the cluster module was used to create the models.
+ScikitLearn and PySpark's KMeans modules was used to create the models.
 
 The dataset consisted of 8 relevent columns with 372 rows of patient data, including the survival label. However, majority of the survival column was unlabeled (256 rows), so K-means was used to perform unsupervised learning on the dataset. After removing the other remaining null values and the survival column, the final dataset was 185 rows by 7 columns as seen below.
 
